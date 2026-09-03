@@ -1,6 +1,6 @@
 # aluminium 角色战斗信息总览
 
-[战斗机制总结 →](HSR.md)
+[战斗术语表 →](GLOSSARY.md)
 
 共 93 个角色。
 
