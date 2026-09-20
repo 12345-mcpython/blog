@@ -6,6 +6,7 @@
   - [官方术语字典](/hsr/GLOSSARY_EXTRA.md)
   - [战斗机制总结](/hsr/HSR.md)
   - [光锥预览](/hsr/WEAPONS.md)
+  - [遗器套装](/hsr/RELICS.md)
 
 - **v1.0**
   - [三月七](/hsr/1001_三月七.md)
