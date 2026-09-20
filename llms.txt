@@ -1,0 +1,117 @@
+# aluminium · 崩坏：星穹铁道 角色战斗数据
+
+> https://laosun123.top/ 是国内可公开访问的《崩坏：星穹铁道》角色战斗数据文档站，覆盖 93 个角色的技能倍率（含角色加强的强化形态）、星魂、行迹、忆灵、仓库技（全局辅助）、内置推荐配装、培养材料，以及战斗机制、术语表、光锥与遗器套装全量数据。内容由游戏解包数据 tbgd（ExcelOutput / ConfigAbility）离线生成，页面里的 `ID` 均为游戏内配置 ID。
+> 所有页面都有对应的原始 Markdown（.md，text/markdown）与静态 HTML（.html）两种形态，引用时建议链接 .html 页面。
+
+最后更新：2026-09-20
+
+## 核心页面
+
+- [角色总览](https://laosun123.top/hsr/index.md): 93 个角色按实装版本分组，含星级 / 元素 / 命途 / 仓库技
+- [战斗机制总结](https://laosun123.top/hsr/HSR.md): 伤害公式、行动值、击破与超击破、欢愉体系、忆灵系统
+- [战斗术语表](https://laosun123.top/hsr/GLOSSARY.md): 技能/星魂/行迹文本中 <u> 标注的机制名词与官方解释
+- [官方术语字典](https://laosun123.top/hsr/GLOSSARY_EXTRA.md): ExtraEffectConfig 全量 310 条游戏内术语解释
+- [光锥预览](https://laosun123.top/hsr/WEAPONS.md): 169 把光锥的叠影数值与技能
+- [遗器套装](https://laosun123.top/hsr/RELICS.md): 60 套遗器/位面饰品的两件套与四件套效果
+
+## 角色页（93）
+
+- [三月七 / March 7th](https://laosun123.top/hsr/1001_%E4%B8%89%E6%9C%88%E4%B8%83.md): 三月七（March 7th）是 4★ 冰属性、命途「存护」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「净庭教宗的圣骑士」。
+- [丹恒 / Dan Heng](https://laosun123.top/hsr/1002_%E4%B8%B9%E6%81%92.md): 丹恒（Dan Heng）是 4★ 风属性、命途「巡猎」角色，v1.0 实装，最大能量 100。内置推荐遗器首推「晨昏交界的翔鹰」。
+- [姬子 / Himeko](https://laosun123.top/hsr/1003_%E5%A7%AC%E5%AD%90.md): 姬子（Himeko）是 5★ 火属性、命途「智识」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「毁烬焚骨的大公」。
+- [瓦尔特 / Welt](https://laosun123.top/hsr/1004_%E7%93%A6%E5%B0%94%E7%89%B9.md): 瓦尔特（Welt）是 5★ 虚数属性、命途「虚无」角色，v1.0 实装，最大能量 120。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「死水深潜的先驱」。
+- [卡芙卡 / Kafka](https://laosun123.top/hsr/1005_%E5%8D%A1%E8%8A%99%E5%8D%A1.md): 卡芙卡（Kafka）是 5★ 雷属性、命途「虚无」角色，v1.2 实装，最大能量 120。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「幽锁深牢的系囚」。
+- [银狼 / Silver Wolf](https://laosun123.top/hsr/1006_%E9%93%B6%E7%8B%BC.md): 银狼（Silver Wolf）是 5★ 量子属性、命途「虚无」角色，v1.1 实装，最大能量 110。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「繁星璀璨的天才」。
+- [阿兰 / Arlan](https://laosun123.top/hsr/1008_%E9%98%BF%E5%85%B0.md): 阿兰（Arlan）是 4★ 雷属性、命途「毁灭」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「激奏雷电的乐队」。
+- [艾丝妲 / Asta](https://laosun123.top/hsr/1009_%E8%89%BE%E4%B8%9D%E5%A6%B2.md): 艾丝妲（Asta）是 4★ 火属性、命途「同谐」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「骇域漫游的信使」。
+- [黑塔 / Herta](https://laosun123.top/hsr/1013_%E9%BB%91%E5%A1%94.md): 黑塔（Herta）是 4★ 冰属性、命途「智识」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「密林卧雪的猎人」。
+- [布洛妮娅 / Bronya](https://laosun123.top/hsr/1101_%E5%B8%83%E6%B4%9B%E5%A6%AE%E5%A8%85.md): 布洛妮娅（Bronya）是 5★ 风属性、命途「同谐」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「骇域漫游的信使」。
+- [希儿 / Seele](https://laosun123.top/hsr/1102_%E5%B8%8C%E5%84%BF.md): 希儿（Seele）是 5★ 量子属性、命途「巡猎」角色，v1.0 实装，最大能量 120。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「繁星璀璨的天才」。
+- [希露瓦 / Serval](https://laosun123.top/hsr/1103_%E5%B8%8C%E9%9C%B2%E7%93%A6.md): 希露瓦（Serval）是 4★ 雷属性、命途「智识」角色，v1.0 实装，最大能量 100。内置推荐遗器首推「激奏雷电的乐队」。
+- [杰帕德 / Gepard](https://laosun123.top/hsr/1104_%E6%9D%B0%E5%B8%95%E5%BE%B7.md): 杰帕德（Gepard）是 5★ 冰属性、命途「存护」角色，v1.0 实装，最大能量 100。内置推荐遗器首推「净庭教宗的圣骑士」。
+- [娜塔莎 / Natasha](https://laosun123.top/hsr/1105_%E5%A8%9C%E5%A1%94%E8%8E%8E.md): 娜塔莎（Natasha）是 4★ 物理属性、命途「丰饶」角色，v1.0 实装，最大能量 90。内置推荐遗器首推「云无留迹的过客」。
+- [佩拉 / Pela](https://laosun123.top/hsr/1106_%E4%BD%A9%E6%8B%89.md): 佩拉（Pela）是 4★ 冰属性、命途「虚无」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「密林卧雪的猎人」。
+- [克拉拉 / Clara](https://laosun123.top/hsr/1107_%E5%85%8B%E6%8B%89%E6%8B%89.md): 克拉拉（Clara）是 5★ 物理属性、命途「毁灭」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「街头出身的拳王」。
+- [桑博 / Sampo](https://laosun123.top/hsr/1108_%E6%A1%91%E5%8D%9A.md): 桑博（Sampo）是 4★ 风属性、命途「虚无」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「晨昏交界的翔鹰」。
+- [虎克 / Hook](https://laosun123.top/hsr/1109_%E8%99%8E%E5%85%8B.md): 虎克（Hook）是 4★ 火属性、命途「毁灭」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「死水深潜的先驱」。
+- [玲可 / Lynx](https://laosun123.top/hsr/1110_%E7%8E%B2%E5%8F%AF.md): 玲可（Lynx）是 4★ 量子属性、命途「丰饶」角色，v1.3 实装，最大能量 100。内置推荐遗器首推「云无留迹的过客」。
+- [卢卡 / Luka](https://laosun123.top/hsr/1111_%E5%8D%A2%E5%8D%A1.md): 卢卡（Luka）是 4★ 物理属性、命途「虚无」角色，v1.2 实装，最大能量 130。内置推荐遗器首推「街头出身的拳王」。
+- [托帕&账账 / Topaz & Numby](https://laosun123.top/hsr/1112_%E6%89%98%E5%B8%95%26%E8%B4%A6%E8%B4%A6.md): 托帕&账账（Topaz & Numby）是 5★ 火属性、命途「巡猎」角色，v1.4 实装，最大能量 130。内置推荐遗器首推「毁烬焚骨的大公」。
+- [青雀 / Qingque](https://laosun123.top/hsr/1201_%E9%9D%92%E9%9B%80.md): 青雀（Qingque）是 4★ 量子属性、命途「智识」角色，v1.0 实装，最大能量 140。内置推荐遗器首推「繁星璀璨的天才」。
+- [停云 / Tingyun](https://laosun123.top/hsr/1202_%E5%81%9C%E4%BA%91.md): 停云（Tingyun）是 4★ 雷属性、命途「同谐」角色，v1.0 实装，最大能量 130。内置推荐遗器首推「重循苦旅的司铎」。
+- [罗刹 / Luocha](https://laosun123.top/hsr/1203_%E7%BD%97%E5%88%B9.md): 罗刹（Luocha）是 5★ 虚数属性、命途「丰饶」角色，v1.1 实装，最大能量 100。内置推荐遗器首推「云无留迹的过客」。
+- [景元 / Jing Yuan](https://laosun123.top/hsr/1204_%E6%99%AF%E5%85%83.md): 景元（Jing Yuan）是 5★ 雷属性、命途「智识」角色，v1.0 实装，最大能量 130。内置推荐遗器首推「毁烬焚骨的大公」。
+- [刃 / Blade](https://laosun123.top/hsr/1205_%E5%88%83.md): 刃（Blade）是 5★ 风属性、命途「毁灭」角色，v1.2 实装，最大能量 130。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「宝命长存的莳者」。
+- [素裳 / Sushang](https://laosun123.top/hsr/1206_%E7%B4%A0%E8%A3%B3.md): 素裳（Sushang）是 4★ 物理属性、命途「巡猎」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「街头出身的拳王」。
+- [驭空 / Yukong](https://laosun123.top/hsr/1207_%E9%A9%AD%E7%A9%BA.md): 驭空（Yukong）是 4★ 虚数属性、命途「同谐」角色，v1.1 实装，最大能量 130。内置推荐遗器首推「野穗伴行的快枪手」。
+- [符玄 / Fu Xuan](https://laosun123.top/hsr/1208_%E7%AC%A6%E7%8E%84.md): 符玄（Fu Xuan）是 5★ 量子属性、命途「存护」角色，v1.3 实装，最大能量 135。内置推荐遗器首推「宝命长存的莳者」。
+- [彦卿 / Yanqing](https://laosun123.top/hsr/1209_%E5%BD%A6%E5%8D%BF.md): 彦卿（Yanqing）是 5★ 冰属性、命途「巡猎」角色，v1.0 实装，最大能量 140。内置推荐遗器首推「密林卧雪的猎人」。
+- [桂乃芬 / Guinaifen](https://laosun123.top/hsr/1210_%E6%A1%82%E4%B9%83%E8%8A%AC.md): 桂乃芬（Guinaifen）是 4★ 火属性、命途「虚无」角色，v1.4 实装，最大能量 120。内置推荐遗器首推「幽锁深牢的系囚」。
+- [白露 / Bailu](https://laosun123.top/hsr/1211_%E7%99%BD%E9%9C%B2.md): 白露（Bailu）是 5★ 雷属性、命途「丰饶」角色，v1.0 实装，最大能量 100。内置推荐遗器首推「云无留迹的过客」。
+- [镜流 / Jingliu](https://laosun123.top/hsr/1212_%E9%95%9C%E6%B5%81.md): 镜流（Jingliu）是 5★ 冰属性、命途「毁灭」角色，v1.4 实装，最大能量 140。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「识海迷坠的学者」。
+- [丹恒•饮月 / Dan Heng • Imbibitor Lunae](https://laosun123.top/hsr/1213_%E4%B8%B9%E6%81%92%E2%80%A2%E9%A5%AE%E6%9C%88.md): 丹恒•饮月（Dan Heng • Imbibitor Lunae）是 5★ 虚数属性、命途「毁灭」角色，v1.3 实装，最大能量 140。内置推荐遗器首推「野穗伴行的快枪手」。
+- [雪衣 / Xueyi](https://laosun123.top/hsr/1214_%E9%9B%AA%E8%A1%A3.md): 雪衣（Xueyi）是 4★ 量子属性、命途「毁灭」角色，v1.6 实装，最大能量 120。内置推荐遗器首推「繁星璀璨的天才」。
+- [寒鸦 / Hanya](https://laosun123.top/hsr/1215_%E5%AF%92%E9%B8%A6.md): 寒鸦（Hanya）是 4★ 物理属性、命途「同谐」角色，v1.5 实装，最大能量 140。内置推荐遗器首推「骇域漫游的信使」。
+- [藿藿 / Huohuo](https://laosun123.top/hsr/1217_%E8%97%BF%E8%97%BF.md): 藿藿（Huohuo）是 5★ 风属性、命途「丰饶」角色，v1.5 实装，最大能量 140。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「云无留迹的过客」。
+- [椒丘 / Jiaoqiu](https://laosun123.top/hsr/1218_%E6%A4%92%E4%B8%98.md): 椒丘（Jiaoqiu）是 5★ 火属性、命途「虚无」角色，v2.4 实装，最大能量 100。内置推荐遗器首推「幽锁深牢的系囚」。
+- [飞霄 / Feixiao](https://laosun123.top/hsr/1220_%E9%A3%9E%E9%9C%84.md): 飞霄（Feixiao）是 5★ 风属性、命途「巡猎」角色，v2.5 实装，最大能量 12。内置推荐遗器首推「风举云飞的勇烈」。
+- [云璃 / Yunli](https://laosun123.top/hsr/1221_%E4%BA%91%E7%92%83.md): 云璃（Yunli）是 5★ 物理属性、命途「毁灭」角色，v2.4 实装，最大能量 240。内置推荐遗器首推「风举云飞的勇烈」。
+- [灵砂 / Lingsha](https://laosun123.top/hsr/1222_%E7%81%B5%E7%A0%82.md): 灵砂（Lingsha）是 5★ 火属性、命途「丰饶」角色，v2.5 实装，最大能量 110。内置推荐遗器首推「荡除蠹灾的铁骑」。
+- [貊泽 / Moze](https://laosun123.top/hsr/1223_%E8%B2%8A%E6%B3%BD.md): 貊泽（Moze）是 4★ 雷属性、命途「巡猎」角色，v2.5 实装，最大能量 120。内置推荐遗器首推「死水深潜的先驱」。
+- [三月七 / March 7th](https://laosun123.top/hsr/1224_%E4%B8%89%E6%9C%88%E4%B8%83.md): 三月七（March 7th）是 4★ 虚数属性、命途「巡猎」角色，v2.4 实装，最大能量 110。内置推荐遗器首推「野穗伴行的快枪手」。
+- [忘归人 / Fugue](https://laosun123.top/hsr/1225_%E5%BF%98%E5%BD%92%E4%BA%BA.md): 忘归人（Fugue）是 5★ 火属性、命途「虚无」角色，v2.7 实装，最大能量 130。内置推荐遗器首推「荡除蠹灾的铁骑」。
+- [加拉赫 / Gallagher](https://laosun123.top/hsr/1301_%E5%8A%A0%E6%8B%89%E8%B5%AB.md): 加拉赫（Gallagher）是 4★ 火属性、命途「丰饶」角色，v2.1 实装，最大能量 110。内置推荐遗器首推「荡除蠹灾的铁骑」。
+- [银枝 / Argenti](https://laosun123.top/hsr/1302_%E9%93%B6%E6%9E%9D.md): 银枝（Argenti）是 5★ 物理属性、命途「智识」角色，v1.5 实装，最大能量 180。内置推荐遗器首推「识海迷坠的学者」。
+- [阮•梅 / Ruan Mei](https://laosun123.top/hsr/1303_%E9%98%AE%E2%80%A2%E6%A2%85.md): 阮•梅（Ruan Mei）是 5★ 冰属性、命途「同谐」角色，v1.6 实装，最大能量 130。内置推荐遗器首推「机心戏梦的钟表匠」。
+- [砂金 / Aventurine](https://laosun123.top/hsr/1304_%E7%A0%82%E9%87%91.md): 砂金（Aventurine）是 5★ 虚数属性、命途「存护」角色，v2.1 实装，最大能量 110。内置推荐遗器首推「净庭教宗的圣骑士」。
+- [真理医生 / Dr. Ratio](https://laosun123.top/hsr/1305_%E7%9C%9F%E7%90%86%E5%8C%BB%E7%94%9F.md): 真理医生（Dr. Ratio）是 5★ 虚数属性、命途「巡猎」角色，v1.6 实装，最大能量 140。内置推荐遗器首推「死水深潜的先驱」。
+- [花火 / Sparkle](https://laosun123.top/hsr/1306_%E8%8A%B1%E7%81%AB.md): 花火（Sparkle）是 5★ 量子属性、命途「同谐」角色，v2.0 实装，最大能量 110。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「重循苦旅的司铎」。
+- [黑天鹅 / Black Swan](https://laosun123.top/hsr/1307_%E9%BB%91%E5%A4%A9%E9%B9%85.md): 黑天鹅（Black Swan）是 5★ 风属性、命途「虚无」角色，v2.0 实装，最大能量 120。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「幽锁深牢的系囚」。
+- [黄泉 / Acheron](https://laosun123.top/hsr/1308_%E9%BB%84%E6%B3%89.md): 黄泉（Acheron）是 5★ 雷属性、命途「虚无」角色，v2.1 实装，最大能量 9。内置推荐遗器首推「死水深潜的先驱」。
+- [知更鸟 / Robin](https://laosun123.top/hsr/1309_%E7%9F%A5%E6%9B%B4%E9%B8%9F.md): 知更鸟（Robin）是 5★ 物理属性、命途「同谐」角色，v2.2 实装，最大能量 160。内置推荐遗器首推「野穗伴行的快枪手」。
+- [流萤 / Firefly](https://laosun123.top/hsr/1310_%E6%B5%81%E8%90%A4.md): 流萤（Firefly）是 5★ 火属性、命途「毁灭」角色，v2.3 实装，最大能量 240。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「荡除蠹灾的铁骑」。
+- [米沙 / Misha](https://laosun123.top/hsr/1312_%E7%B1%B3%E6%B2%99.md): 米沙（Misha）是 4★ 冰属性、命途「毁灭」角色，v2.0 实装，最大能量 100。内置推荐遗器首推「密林卧雪的猎人」。
+- [星期日 / Sunday](https://laosun123.top/hsr/1313_%E6%98%9F%E6%9C%9F%E6%97%A5.md): 星期日（Sunday）是 5★ 虚数属性、命途「同谐」角色，v2.7 实装，最大能量 130。内置推荐遗器首推「重循苦旅的司铎」。
+- [翡翠 / Jade](https://laosun123.top/hsr/1314_%E7%BF%A1%E7%BF%A0.md): 翡翠（Jade）是 5★ 量子属性、命途「智识」角色，v2.3 实装，最大能量 140。内置推荐遗器首推「繁星璀璨的天才」。
+- [波提欧 / Boothill](https://laosun123.top/hsr/1315_%E6%B3%A2%E6%8F%90%E6%AC%A7.md): 波提欧（Boothill）是 5★ 物理属性、命途「巡猎」角色，v2.2 实装，最大能量 115。内置推荐遗器首推「流星追迹的怪盗」。
+- [乱破 / Rappa](https://laosun123.top/hsr/1317_%E4%B9%B1%E7%A0%B4.md): 乱破（Rappa）是 5★ 虚数属性、命途「智识」角色，v2.6 实装，最大能量 140。内置推荐遗器首推「荡除蠹灾的铁骑」。
+- [大丽花 / The Dahlia](https://laosun123.top/hsr/1321_%E5%A4%A7%E4%B8%BD%E8%8A%B1.md): 大丽花（The Dahlia）是 5★ 火属性、命途「虚无」角色，v3.8 实装，最大能量 130。内置推荐遗器首推「荡除蠹灾的铁骑」。
+- [大黑塔 / The Herta](https://laosun123.top/hsr/1401_%E5%A4%A7%E9%BB%91%E5%A1%94.md): 大黑塔（The Herta）是 5★ 冰属性、命途「智识」角色，v3.0 实装，最大能量 220。内置推荐遗器首推「识海迷坠的学者」。
+- [阿格莱雅 / Aglaea](https://laosun123.top/hsr/1402_%E9%98%BF%E6%A0%BC%E8%8E%B1%E9%9B%85.md): 阿格莱雅（Aglaea）是 5★ 雷属性、命途「记忆」角色，v3.0 实装，最大能量 350。内置推荐遗器首推「凯歌祝捷的英豪」。
+- [缇宝 / Tribbie](https://laosun123.top/hsr/1403_%E7%BC%87%E5%AE%9D.md): 缇宝（Tribbie）是 5★ 量子属性、命途「同谐」角色，v3.1 实装，最大能量 120。内置推荐遗器首推「哀歌覆国的诗人」。
+- [万敌 / Mydei](https://laosun123.top/hsr/1404_%E4%B8%87%E6%95%8C.md): 万敌（Mydei）是 5★ 虚数属性、命途「毁灭」角色，v3.1 实装，最大能量 160。内置推荐遗器首推「识海迷坠的学者」。
+- [那刻夏 / Anaxa](https://laosun123.top/hsr/1405_%E9%82%A3%E5%88%BB%E5%A4%8F.md): 那刻夏（Anaxa）是 5★ 风属性、命途「智识」角色，v3.2 实装，最大能量 140。内置推荐遗器首推「晨昏交界的翔鹰」。
+- [赛飞儿 / Cipher](https://laosun123.top/hsr/1406_%E8%B5%9B%E9%A3%9E%E5%84%BF.md): 赛飞儿（Cipher）是 5★ 量子属性、命途「虚无」角色，v3.3 实装，最大能量 130。内置推荐遗器首推「死水深潜的先驱」。
+- [遐蝶 / Castorice](https://laosun123.top/hsr/1407_%E9%81%90%E8%9D%B6.md): 遐蝶（Castorice）是 5★ 量子属性、命途「记忆」角色，v3.2 实装。拥有仓库技「月茧之庇」（获得该角色即生效，无需上场）。内置推荐遗器首推「哀歌覆国的诗人」。
+- [白厄 / Phainon](https://laosun123.top/hsr/1408_%E7%99%BD%E5%8E%84.md): 白厄（Phainon）是 5★ 物理属性、命途「毁灭」角色，v3.4 实装，最大能量 12。内置推荐遗器首推「恶海逐波的船长」。
+- [风堇 / Hyacine](https://laosun123.top/hsr/1409_%E9%A3%8E%E5%A0%87.md): 风堇（Hyacine）是 5★ 风属性、命途「记忆」角色，v3.3 实装，最大能量 140。内置推荐遗器首推「烈阳惊雷的女武神」。
+- [海瑟音 / Hysilens](https://laosun123.top/hsr/1410_%E6%B5%B7%E7%91%9F%E9%9F%B3.md): 海瑟音（Hysilens）是 5★ 物理属性、命途「虚无」角色，v3.5 实装，最大能量 110。内置推荐遗器首推「幽锁深牢的系囚」。
+- [刻律德菈 / Cerydra](https://laosun123.top/hsr/1412_%E5%88%BB%E5%BE%8B%E5%BE%B7%E8%8F%88.md): 刻律德菈（Cerydra）是 5★ 风属性、命途「同谐」角色，v3.5 实装，最大能量 130。内置推荐遗器首推「重循苦旅的司铎」。
+- [长夜月 / Evernight](https://laosun123.top/hsr/1413_%E9%95%BF%E5%A4%9C%E6%9C%88.md): 长夜月（Evernight）是 5★ 冰属性、命途「记忆」角色，v3.6 实装，最大能量 240。内置推荐遗器首推「再创天地的救世主」。
+- [丹恒•腾荒 / Dan Heng • Permansor Terrae](https://laosun123.top/hsr/1414_%E4%B8%B9%E6%81%92%E2%80%A2%E8%85%BE%E8%8D%92.md): 丹恒•腾荒（Dan Heng • Permansor Terrae）是 5★ 物理属性、命途「存护」角色，v3.6 实装，最大能量 135。内置推荐遗器首推「自匿星芒的隐士」。
+- [昔涟 / Cyrene](https://laosun123.top/hsr/1415_%E6%98%94%E6%B6%9F.md): 昔涟（Cyrene）是 5★ 冰属性、命途「记忆」角色，v3.7 实装，最大能量 24。内置推荐遗器首推「再创天地的救世主」。
+- [火花 / Sparxie](https://laosun123.top/hsr/1501_%E7%81%AB%E8%8A%B1.md): 火花（Sparxie）是 5★ 火属性、命途「欢愉」角色，v4.0 实装，最大能量 160。内置推荐遗器首推「闪耀功勋的魔法少女」。
+- [爻光 / Yao Guang](https://laosun123.top/hsr/1502_%E7%88%BB%E5%85%89.md): 爻光（Yao Guang）是 5★ 物理属性、命途「欢愉」角色，v4.0 实装，最大能量 180。内置推荐遗器首推「应天涉远的卜者」。
+- [不死途 / Ashveil](https://laosun123.top/hsr/1504_%E4%B8%8D%E6%AD%BB%E9%80%94.md): 不死途（Ashveil）是 5★ 雷属性、命途「巡猎」角色，v4.1 实装，最大能量 150。内置推荐遗器首推「毁烬焚骨的大公」。
+- [绯英 / Evanescia](https://laosun123.top/hsr/1505_%E7%BB%AF%E8%8B%B1.md): 绯英（Evanescia）是 5★ 物理属性、命途「欢愉」角色，v4.2 实装，最大能量 480。内置推荐遗器首推「闪耀功勋的魔法少女」。
+- [银狼LV.999 / Silver Wolf LV.999](https://laosun123.top/hsr/1506_%E9%93%B6%E7%8B%BCLV.999.md): 银狼LV.999（Silver Wolf LV.999）是 5★ 虚数属性、命途「欢愉」角色，v4.2 实装，最大能量 60。拥有仓库技「999安全卫士」（获得该角色即生效，无需上场）。内置推荐遗器首推「闪耀功勋的魔法少女」。
+- [千冶•刃 / Mortenax Blade](https://laosun123.top/hsr/1507_%E5%8D%83%E5%86%B6%E2%80%A2%E5%88%83.md): 千冶•刃（Mortenax Blade）是 5★ 火属性、命途「虚无」角色，v4.3 实装，最大能量 160。内置推荐遗器首推「叩问天工的名冶」。
+- [姬子•启行 / Himeko • Nova](https://laosun123.top/hsr/1510_%E5%A7%AC%E5%AD%90%E2%80%A2%E5%90%AF%E8%A1%8C.md): 姬子•启行（Himeko • Nova）是 5★ 火属性、命途「智识」角色，v4.4 实装，最大能量 150。内置推荐遗器首推「星如我见的领航员」。
+- [知更鸟•晴歌 / Robin • Summeretto](https://laosun123.top/hsr/1512_%E7%9F%A5%E6%9B%B4%E9%B8%9F%E2%80%A2%E6%99%B4%E6%AD%8C.md): 知更鸟•晴歌（Robin • Summeretto）是 5★ 风属性、命途「记忆」角色，v4.5 实装，最大能量 140。内置推荐遗器首推「再创天地的救世主」。
+- [砂金•戏浪 / Aventurine • Waveflair](https://laosun123.top/hsr/1513_%E7%A0%82%E9%87%91%E2%80%A2%E6%88%8F%E6%B5%AA.md): 砂金•戏浪（Aventurine • Waveflair）是 5★ 量子属性、命途「欢愉」角色，v4.5 实装，最大能量 130。内置推荐遗器首推「闪耀功勋的魔法少女」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8001_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 物理属性、命途「毁灭」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「街头出身的拳王」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8002_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 物理属性、命途「毁灭」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「街头出身的拳王」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8003_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 火属性、命途「存护」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「净庭教宗的圣骑士」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8004_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 火属性、命途「存护」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「净庭教宗的圣骑士」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8005_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 虚数属性、命途「同谐」角色，v2.2 实装，最大能量 140。内置推荐遗器首推「机心戏梦的钟表匠」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8006_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 虚数属性、命途「同谐」角色，v2.2 实装，最大能量 140。内置推荐遗器首推「机心戏梦的钟表匠」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8007_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 冰属性、命途「记忆」角色，v3.0 实装，最大能量 160。内置推荐遗器首推「凯歌祝捷的英豪」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8008_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 冰属性、命途「记忆」角色，v3.0 实装，最大能量 160。内置推荐遗器首推「凯歌祝捷的英豪」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8009_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 雷属性、命途「欢愉」角色，v4.2 实装，最大能量 160。内置推荐遗器首推「应天涉远的卜者」。
+- [开拓者 / Trailblazer](https://laosun123.top/hsr/8010_%E5%BC%80%E6%8B%93%E8%80%85.md): 开拓者（Trailblazer）是 5★ 雷属性、命途「欢愉」角色，v4.2 实装，最大能量 160。内置推荐遗器首推「应天涉远的卜者」。
+
+## 其它
+
+- [站点首页](https://laosun123.top/): docsify 交互站点
+- [llms-full.txt](https://laosun123.top/llms-full.txt): 核心机制页 Markdown 合并版
+- [sitemap.xml](https://laosun123.top/sitemap.xml): 全部静态页面
