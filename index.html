@@ -66,7 +66,9 @@
   </noscript>
   <script>
     window.$docsify = {
-      loadSidebar: '_sidebar.md',
+      // 侧边栏是静态文件, 会被浏览器/Cloudflare 缓存(max-age=600)。加当天的查询参数,
+      // 保证拿到的是最新文件(links 都是绝对路径, 不受影响)。
+      loadSidebar: '_sidebar.md?d=' + new Date().toISOString().slice(0, 10),
       search: {
         maxAge: 86400000,
         paths: ['/hsr/'],
@@ -117,7 +119,15 @@
           }
         }
         fetch('/seo.json').then(function (r) { return r.json(); }).then(function (data) {
-          seo = data; loaded = true; apply();
+          seo = data;
+          // docsify 是单页应用: 侧边栏与正文只在"页面加载"时取一次, 老标签页会一直
+          // 停在旧内容上。发现构建版本变了就自动刷新一次(每个版本最多刷一次)。
+          try {
+            var seen = window.localStorage.getItem('hsr-seo-version');
+            window.localStorage.setItem('hsr-seo-version', data.version || '');
+            if (seen && data.version && seen !== data.version) { location.reload(); return; }
+          } catch (e) {}
+          apply();
         }).catch(function () {});
         hook.doneEach(apply);
       }]
