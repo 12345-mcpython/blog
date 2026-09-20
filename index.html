@@ -3,19 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laosun Blog</title>
+  <title>aluminium · 崩坏：星穹铁道 角色战斗数据文档</title>
+  <meta name="description" content="《崩坏：星穹铁道》角色战斗数据文档：93 个角色的技能倍率（含角色加强的强化形态）、星魂、行迹、忆灵、仓库技、内置推荐配装与培养材料，以及战斗机制、术语表、光锥与遗器套装全量数据。数据由游戏解包（tbgd）离线生成。">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+  <meta name="theme-color" content="#42b983">
+  <link rel="canonical" href="https://laosun123.top/">
+  <link rel="alternate" type="text/markdown" href="https://laosun123.top/llms.txt">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="aluminium · 崩坏：星穹铁道 角色战斗数据">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="aluminium · 崩坏：星穹铁道 角色战斗数据文档">
+  <meta property="og:description" content="93 个角色的技能倍率、星魂、行迹、忆灵、仓库技、推荐配装与培养材料，以及战斗机制、术语表、光锥与遗器套装数据。">
+  <meta property="og:url" content="https://laosun123.top/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="aluminium · 崩坏：星穹铁道 角色战斗数据文档">
+  <meta name="twitter:description" content="93 个角色的技能倍率、星魂、行迹、忆灵、仓库技、推荐配装与培养材料数据。">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"WebSite","@id":"https://laosun123.top/#website","url":"https://laosun123.top/",
+     "name":"aluminium · 崩坏：星穹铁道 角色战斗数据","inLanguage":"zh-CN",
+     "description":"崩坏：星穹铁道角色战斗数据文档，含技能倍率、星魂、行迹、忆灵、仓库技、推荐配装与培养材料。"},
+    {"@type":"Dataset","@id":"https://laosun123.top/#dataset",
+     "name":"HSR 角色战斗数据（tbgd 解包重建）",
+     "description":"93 个角色的技能/星魂/行迹/忆灵倍率与推荐配置，光锥 169 把、遗器套装 60 套、术语 310 条。",
+     "inLanguage":"zh-CN","isAccessibleForFree":true,
+     "url":"https://laosun123.top/hsr/index.html",
+     "keywords":["崩坏星穹铁道","HSR","角色数据","伤害公式","技能倍率","遗器","光锥","模拟器"],
+     "isBasedOn":"游戏解包数据 tbgd (ExcelOutput / ConfigAbility)",
+     "isPartOf":{"@id":"https://laosun123.top/#website"}}
+  ]}
+  </script>
   <style>
     body { font-size: 16px; }
     details { margin: .5em 0; background: #f8f9fb; border-radius: 6px; padding: 4px 10px; }
     details summary { cursor: pointer; font-weight: 500; }
     table { display: table; }
     u { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+    .nojs { max-width: 900px; margin: 0 auto; padding: 24px 20px; font: 16px/1.7 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; color: #2c3e50; }
+    .nojs ul { line-height: 2; }
   </style>
 </head>
 <body>
   <div id="app"></div>
+  <noscript>
+    <div class="nojs">
+      <h1>aluminium · 崩坏：星穹铁道 角色战斗数据文档</h1>
+      <p>本页正文由 docsify 在浏览器中渲染。若你是不执行 JavaScript 的爬虫或阅读器，请直接访问下面的静态页面
+        （每页都有完整 HTML 与独立 URL），或抓取 <a href="/llms.txt">llms.txt</a>、<a href="/sitemap.xml">sitemap.xml</a>。</p>
+      <ul>
+        <li><a href="/hsr/index.html">角色总览</a>（93 个角色，按实装版本分组）</li>
+        <li><a href="/hsr/HSR.html">战斗机制总结</a>（伤害公式、行动值、击破、欢愉体系、忆灵）</li>
+        <li><a href="/hsr/GLOSSARY.html">战斗术语表</a></li>
+        <li><a href="/hsr/GLOSSARY_EXTRA.html">官方术语字典</a>（ExtraEffectConfig 全量）</li>
+        <li><a href="/hsr/WEAPONS.html">光锥预览</a>（169 把，含叠影数值）</li>
+        <li><a href="/hsr/RELICS.html">遗器套装</a>（60 套，两件套 / 四件套效果）</li>
+      </ul>
+      <p>全部角色页与静态页面见 <a href="/sitemap.xml">sitemap.xml</a>；
+        原始 Markdown（对 AI 最省 token 的形态）见 <a href="/llms.txt">llms.txt</a>。</p>
+    </div>
+  </noscript>
   <script>
     window.$docsify = {
       loadSidebar: '_sidebar.md',
@@ -29,7 +77,50 @@
       auto2top: true,
       name: 'Laosun Blog',
       repo: 'https://github.com/12345-mcpython/blog',
-      copycode: true
+      copycode: true,
+      plugins: [function (hook) {
+        // 每页注入 title / description / canonical / OG, 让执行 JS 的搜索引擎
+        // 也能拿到逐页元信息; 规范网址指向静态预渲染页, 避免重复内容竞争。
+        var SITE = 'https://laosun123.top';
+        var DEFAULT_TITLE = 'aluminium · 崩坏：星穹铁道 角色战斗数据文档';
+        var DEFAULT_DESC = document.querySelector('meta[name="description"]').content;
+        var seo = null, loaded = false;
+
+        function upsert(selector, attrs) {
+          var el = document.head.querySelector(selector);
+          if (!el) { el = document.createElement(selector.startsWith('link') ? 'link' : 'meta'); document.head.appendChild(el); }
+          Object.keys(attrs).forEach(function (k) { el.setAttribute(k, attrs[k]); });
+        }
+        function lookup(route) {
+          var keys = [route, route + '.md'];
+          try { keys.push(decodeURIComponent(route), decodeURIComponent(route) + '.md'); } catch (e) {}
+          for (var i = 0; i < keys.length; i++) { if (seo.pages[keys[i]]) return seo.pages[keys[i]]; }
+          return null;
+        }
+        function apply() {
+          if (!seo) return;
+          var route = (location.hash || '').replace(/^#\/?/, '').split('?')[0];
+          var page = route ? lookup(route) : null;
+          var title = page ? page.title + ' · aluminium HSR' : DEFAULT_TITLE;
+          var desc = page ? page.description : DEFAULT_DESC;
+          var url = page ? page.canonical : SITE + '/';
+          document.title = title;
+          upsert('meta[name="description"]', { name: 'description', content: desc });
+          upsert('link[rel="canonical"]', { rel: 'canonical', href: url });
+          upsert('meta[property="og:title"]', { property: 'og:title', content: title });
+          upsert('meta[property="og:description"]', { property: 'og:description', content: desc });
+          upsert('meta[property="og:url"]', { property: 'og:url', content: url });
+          upsert('meta[name="twitter:title"]', { name: 'twitter:title', content: title });
+          upsert('meta[name="twitter:description"]', { name: 'twitter:description', content: desc });
+          if (page) {
+            upsert('link[rel="alternate"]', { rel: 'alternate', type: 'text/markdown', href: page.markdown });
+          }
+        }
+        fetch('/seo.json').then(function (r) { return r.json(); }).then(function (data) {
+          seo = data; loaded = true; apply();
+        }).catch(function () {});
+        hook.doneEach(apply);
+      }]
     };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
