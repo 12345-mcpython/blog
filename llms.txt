@@ -3,7 +3,7 @@
 > https://laosun123.top/ 是国内可公开访问的《崩坏：星穹铁道》角色战斗数据文档站，覆盖 93 个角色的技能倍率（含角色加强的强化形态）、星魂、行迹、忆灵、仓库技（全局辅助）、内置推荐配装、培养材料，以及战斗机制、术语表、光锥与遗器套装全量数据。内容由游戏解包数据 tbgd（ExcelOutput / ConfigAbility）离线生成，页面里的 `ID` 均为游戏内配置 ID。
 > 所有页面都有对应的原始 Markdown（.md，text/markdown）与静态 HTML（.html）两种形态，引用时建议链接 .html 页面。
 
-最后更新：2026-09-20
+最后更新：2026-09-26
 
 ## 核心页面
 
@@ -25,6 +25,8 @@
 - [阿兰 / Arlan](https://laosun123.top/hsr/1008_%E9%98%BF%E5%85%B0.md): 阿兰（Arlan）是 4★ 雷属性、命途「毁灭」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「激奏雷电的乐队」。
 - [艾丝妲 / Asta](https://laosun123.top/hsr/1009_%E8%89%BE%E4%B8%9D%E5%A6%B2.md): 艾丝妲（Asta）是 4★ 火属性、命途「同谐」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「骇域漫游的信使」。
 - [黑塔 / Herta](https://laosun123.top/hsr/1013_%E9%BB%91%E5%A1%94.md): 黑塔（Herta）是 4★ 冰属性、命途「智识」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「密林卧雪的猎人」。
+- [Saber](https://laosun123.top/hsr/1014_Saber.md): Saber 是 5★ 风属性、命途「毁灭」角色，联动登场，最大能量 360。内置推荐遗器首推「恶海逐波的船长」。
+- [Archer](https://laosun123.top/hsr/1015_Archer.md): Archer 是 5★ 量子属性、命途「巡猎」角色，联动登场，最大能量 220。内置推荐遗器首推「繁星璀璨的天才」。
 - [布洛妮娅 / Bronya](https://laosun123.top/hsr/1101_%E5%B8%83%E6%B4%9B%E5%A6%AE%E5%A8%85.md): 布洛妮娅（Bronya）是 5★ 风属性、命途「同谐」角色，v1.0 实装，最大能量 120。内置推荐遗器首推「骇域漫游的信使」。
 - [希儿 / Seele](https://laosun123.top/hsr/1102_%E5%B8%8C%E5%84%BF.md): 希儿（Seele）是 5★ 量子属性、命途「巡猎」角色，v1.0 实装，最大能量 120。属于「角色加强」角色，技能与星魂带强化形态。内置推荐遗器首推「繁星璀璨的天才」。
 - [希露瓦 / Serval](https://laosun123.top/hsr/1103_%E5%B8%8C%E9%9C%B2%E7%93%A6.md): 希露瓦（Serval）是 4★ 雷属性、命途「智识」角色，v1.0 实装，最大能量 100。内置推荐遗器首推「激奏雷电的乐队」。
@@ -96,6 +98,8 @@
 - [绯英 / Evanescia](https://laosun123.top/hsr/1505_%E7%BB%AF%E8%8B%B1.md): 绯英（Evanescia）是 5★ 物理属性、命途「欢愉」角色，v4.2 实装，最大能量 480。内置推荐遗器首推「闪耀功勋的魔法少女」。
 - [银狼LV.999 / Silver Wolf LV.999](https://laosun123.top/hsr/1506_%E9%93%B6%E7%8B%BCLV.999.md): 银狼LV.999（Silver Wolf LV.999）是 5★ 虚数属性、命途「欢愉」角色，v4.2 实装，最大能量 60。拥有仓库技「999安全卫士」（获得该角色即生效，无需上场）。内置推荐遗器首推「闪耀功勋的魔法少女」。
 - [千冶•刃 / Mortenax Blade](https://laosun123.top/hsr/1507_%E5%8D%83%E5%86%B6%E2%80%A2%E5%88%83.md): 千冶•刃（Mortenax Blade）是 5★ 火属性、命途「虚无」角色，v4.3 实装，最大能量 160。内置推荐遗器首推「叩问天工的名冶」。
+- [远坂凛 / Rin Tohsaka](https://laosun123.top/hsr/1508_%E8%BF%9C%E5%9D%82%E5%87%9B.md): 远坂凛（Rin Tohsaka）是 5★ 量子属性、命途「智识」角色，联动登场，最大能量 160。内置推荐遗器首推「繁星璀璨的天才」。
+- [吉尔伽美什 / Gilgamesh](https://laosun123.top/hsr/1509_%E5%90%89%E5%B0%94%E4%BC%BD%E7%BE%8E%E4%BB%80.md): 吉尔伽美什（Gilgamesh）是 5★ 雷属性、命途「毁灭」角色，联动登场，最大能量 360。内置推荐遗器首推「识海迷坠的学者」。
 - [姬子•启行 / Himeko • Nova](https://laosun123.top/hsr/1510_%E5%A7%AC%E5%AD%90%E2%80%A2%E5%90%AF%E8%A1%8C.md): 姬子•启行（Himeko • Nova）是 5★ 火属性、命途「智识」角色，v4.4 实装，最大能量 150。内置推荐遗器首推「星如我见的领航员」。
 - [知更鸟•晴歌 / Robin • Summeretto](https://laosun123.top/hsr/1512_%E7%9F%A5%E6%9B%B4%E9%B8%9F%E2%80%A2%E6%99%B4%E6%AD%8C.md): 知更鸟•晴歌（Robin • Summeretto）是 5★ 风属性、命途「记忆」角色，v4.5 实装，最大能量 140。内置推荐遗器首推「再创天地的救世主」。
 - [砂金•戏浪 / Aventurine • Waveflair](https://laosun123.top/hsr/1513_%E7%A0%82%E9%87%91%E2%80%A2%E6%88%8F%E6%B5%AA.md): 砂金•戏浪（Aventurine • Waveflair）是 5★ 量子属性、命途「欢愉」角色，v4.5 实装，最大能量 130。内置推荐遗器首推「闪耀功勋的魔法少女」。

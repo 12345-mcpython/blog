@@ -1,8 +1,8 @@
 {
  "site": "https://laosun123.top",
  "name": "aluminium · 崩坏：星穹铁道 角色战斗数据",
- "lastmod": "2026-09-20",
- "version": "f8ab32c923f71956",
+ "lastmod": "2026-09-26",
+ "version": "3c8c5f2cd05f2d34",
  "pages": {
   "hsr/1001_三月七.md": {
    "title": "三月七 / March 7th",
@@ -57,6 +57,18 @@
    "description": "黑塔（Herta）是 4★ 冰属性、命途「智识」角色，v1.0 实装，最大能量 110。内置推荐遗器首推「密林卧雪的猎人」。",
    "canonical": "https://laosun123.top/hsr/1013_%E9%BB%91%E5%A1%94.html",
    "markdown": "https://laosun123.top/hsr/1013_%E9%BB%91%E5%A1%94.md"
+  },
+  "hsr/1014_Saber.md": {
+   "title": "Saber",
+   "description": "Saber 是 5★ 风属性、命途「毁灭」角色，联动登场，最大能量 360。内置推荐遗器首推「恶海逐波的船长」。",
+   "canonical": "https://laosun123.top/hsr/1014_Saber.html",
+   "markdown": "https://laosun123.top/hsr/1014_Saber.md"
+  },
+  "hsr/1015_Archer.md": {
+   "title": "Archer",
+   "description": "Archer 是 5★ 量子属性、命途「巡猎」角色，联动登场，最大能量 220。内置推荐遗器首推「繁星璀璨的天才」。",
+   "canonical": "https://laosun123.top/hsr/1015_Archer.html",
+   "markdown": "https://laosun123.top/hsr/1015_Archer.md"
   },
   "hsr/1101_布洛妮娅.md": {
    "title": "布洛妮娅 / Bronya",
@@ -483,6 +495,18 @@
    "description": "千冶•刃（Mortenax Blade）是 5★ 火属性、命途「虚无」角色，v4.3 实装，最大能量 160。内置推荐遗器首推「叩问天工的名冶」。",
    "canonical": "https://laosun123.top/hsr/1507_%E5%8D%83%E5%86%B6%E2%80%A2%E5%88%83.html",
    "markdown": "https://laosun123.top/hsr/1507_%E5%8D%83%E5%86%B6%E2%80%A2%E5%88%83.md"
+  },
+  "hsr/1508_远坂凛.md": {
+   "title": "远坂凛 / Rin Tohsaka",
+   "description": "远坂凛（Rin Tohsaka）是 5★ 量子属性、命途「智识」角色，联动登场，最大能量 160。内置推荐遗器首推「繁星璀璨的天才」。",
+   "canonical": "https://laosun123.top/hsr/1508_%E8%BF%9C%E5%9D%82%E5%87%9B.html",
+   "markdown": "https://laosun123.top/hsr/1508_%E8%BF%9C%E5%9D%82%E5%87%9B.md"
+  },
+  "hsr/1509_吉尔伽美什.md": {
+   "title": "吉尔伽美什 / Gilgamesh",
+   "description": "吉尔伽美什（Gilgamesh）是 5★ 雷属性、命途「毁灭」角色，联动登场，最大能量 360。内置推荐遗器首推「识海迷坠的学者」。",
+   "canonical": "https://laosun123.top/hsr/1509_%E5%90%89%E5%B0%94%E4%BC%BD%E7%BE%8E%E4%BB%80.html",
+   "markdown": "https://laosun123.top/hsr/1509_%E5%90%89%E5%B0%94%E4%BC%BD%E7%BE%8E%E4%BB%80.md"
   },
   "hsr/1510_姬子•启行.md": {
    "title": "姬子•启行 / Himeko • Nova",
