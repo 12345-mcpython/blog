@@ -1,8 +1,8 @@
 {
  "site": "https://laosun123.top",
  "name": "aluminium · 崩坏：星穹铁道 角色战斗数据",
- "lastmod": "2026-09-26",
- "version": "3c8c5f2cd05f2d34",
+ "lastmod": "2026-09-29",
+ "version": "c310e71abad2aec4",
  "pages": {
   "hsr/1001_三月七.md": {
    "title": "三月七 / March 7th",
@@ -216,7 +216,7 @@
   },
   "hsr/1213_丹恒•饮月.md": {
    "title": "丹恒•饮月 / Dan Heng • Imbibitor Lunae",
-   "description": "丹恒•饮月（Dan Heng • Imbibitor Lunae）是 5★ 虚数属性、命途「毁灭」角色，v1.3 实装，最大能量 140。内置推荐遗器首推「野穗伴行的快枪手」。",
+   "description": "丹恒•饮月（Dan Heng • Imbibitor Lunae）是 5★ 虚数属性、命途「毁灭」角色，v1.3 实装，最大能量 140。内置推荐遗器首推「贪噬禁果的异端」。",
    "canonical": "https://laosun123.top/hsr/1213_%E4%B8%B9%E6%81%92%E2%80%A2%E9%A5%AE%E6%9C%88.html",
    "markdown": "https://laosun123.top/hsr/1213_%E4%B8%B9%E6%81%92%E2%80%A2%E9%A5%AE%E6%9C%88.md"
   },
@@ -472,6 +472,12 @@
    "canonical": "https://laosun123.top/hsr/1502_%E7%88%BB%E5%85%89.html",
    "markdown": "https://laosun123.top/hsr/1502_%E7%88%BB%E5%85%89.md"
   },
+  "hsr/1503_真珠.md": {
+   "title": "真珠 / Pearl",
+   "description": "真珠（Pearl）是 5★ 冰属性、命途「欢愉」角色，v4.6 实装，最大能量 180。内置推荐遗器首推「戏梦点星的伶人」。",
+   "canonical": "https://laosun123.top/hsr/1503_%E7%9C%9F%E7%8F%A0.html",
+   "markdown": "https://laosun123.top/hsr/1503_%E7%9C%9F%E7%8F%A0.md"
+  },
   "hsr/1504_不死途.md": {
    "title": "不死途 / Ashveil",
    "description": "不死途（Ashveil）是 5★ 雷属性、命途「巡猎」角色，v4.1 实装，最大能量 150。内置推荐遗器首推「毁烬焚骨的大公」。",
@@ -594,7 +600,7 @@
   },
   "hsr/GLOSSARY_EXTRA.md": {
    "title": "官方术语字典（ExtraEffectConfig）",
-   "description": "tbgd `ExcelOutput/ExtraEffectConfig.json` 全量导出，共 310 条。",
+   "description": "tbgd `ExcelOutput/ExtraEffectConfig.json` 全量导出，共 315 条。",
    "canonical": "https://laosun123.top/hsr/GLOSSARY_EXTRA.html",
    "markdown": "https://laosun123.top/hsr/GLOSSARY_EXTRA.md"
   },
@@ -606,13 +612,13 @@
   },
   "hsr/RELICS.md": {
    "title": "遗器套装",
-   "description": "tbgd `RelicSetConfig` / `RelicSetSkillConfig` 全量 60 套（外圈遗器 32 套 / 位面饰品 28 套）；数值按 `AbilityParamList` 渲染，部位与强化上限取自 `RelicConfig`。",
+   "description": "tbgd `RelicSetConfig` / `RelicSetSkillConfig` 全量 62 套（外圈遗器 34 套 / 位面饰品 28 套）；数值按 `AbilityParamList` 渲染，部位与强化上限取自 `RelicConfig`。",
    "canonical": "https://laosun123.top/hsr/RELICS.html",
    "markdown": "https://laosun123.top/hsr/RELICS.md"
   },
   "hsr/WEAPONS.md": {
    "title": "光锥预览",
-   "description": "tbgd `weapons.json` 全量 169 把光锥；叠影数值按 S1/S2/S3/S4/S5 用 `/` 分割。",
+   "description": "tbgd `weapons.json` 全量 170 把光锥；叠影数值按 S1/S2/S3/S4/S5 用 `/` 分割。",
    "canonical": "https://laosun123.top/hsr/WEAPONS.html",
    "markdown": "https://laosun123.top/hsr/WEAPONS.md"
   },

@@ -1,6 +1,6 @@
 # 光锥预览
 
-> tbgd `weapons.json` 全量 **169** 把光锥；叠影数值按 S1/S2/S3/S4/S5 用 `/` 分割。
+> tbgd `weapons.json` 全量 **170** 把光锥；叠影数值按 S1/S2/S3/S4/S5 用 `/` 分割。
 
 ## 毁灭
 
@@ -1786,9 +1786,9 @@
 
 **技能**: 即兴 / Improvisation
 
-> 使装备者的生命上限提高<strong>30/37.5/45/52.5/60%</strong>，装备者施放终结技后，为我方恢复1个战技点。进入战斗时，使装备者的行动提前<strong>30/32.5/35/37.5/40%</strong>，并使装备者获得【新声】，持续<strong>2/2/2/2/2</strong>回合。装备者持有【新声】时，我方全体速度提高<strong>20/25/30/35/40%</strong>。
+> 使装备者的生命上限提高<strong>30/37.5/45/52.5/60%</strong>，装备者施放终结技后，为我方恢复1点战技点。进入战斗时，使装备者的行动提前<strong>30/32.5/35/37.5/40%</strong>，并使装备者获得【新声】，持续<strong>2/2/2/2/2</strong>回合。装备者持有【新声】时，我方全体速度提高<strong>20/25/30/35/40%</strong>。
 >
-> *Increases the wearer's Max HP by <strong>30/37.5/45/52.5/60%</strong>. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by <strong>30/32.5/35/37.5/40%</strong> and grants the wearer "New Melody," lasting for <strong>2/2/2/2/2</strong> turn(s). While the wearer holds "New Melody," all allies' SPD increases by <strong>20/25/30/35/40%</strong>.*
+> *Increases the wearer's Max HP by <strong>30/37.5/45/52.5/60%</strong>. After the wearer uses their Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by <strong>30/32.5/35/37.5/40%</strong> and grants the wearer "New Melody" for <strong>2/2/2/2/2</strong> turn(s). While the wearer has "New Melody," all allies' SPD increases by <strong>20/25/30/35/40%</strong>.*
 
 - health_percent: 0.3/0.375/0.45/0.525/0.6
 
@@ -1897,6 +1897,18 @@
 > *Increases the wearer's SPD by <strong>18/21/24/27/30%</strong>. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains "Great Fortune" for <strong>3/3/3/3/3</strong> turn(s). While the wearer holds "Great Fortune," all allies' CRIT Rate increases by <strong>10/11/12/13/14%</strong>, CRIT DMG increases by <strong>30/37.5/45/52.5/60%</strong>, and the wearer's Energy Regeneration Rate increases by <strong>12/14/16/18/20%</strong>.<br>At the start of each wave, the wearer regenerates a fixed amount of <strong>15/15/15/15/15</strong> Energy.*
 
 - speed_percent: 0.18/0.21/0.24/0.27/0.3
+
+</details>
+
+<details><summary>[5★] 献给明日的色彩 / Colors for Tomorrow ｜基础: 攻21.6 防27 生48</summary>
+
+**技能**: 挥墨 / Ink Splash
+
+> 使装备者的防御力提高<strong>48/60/72/84/96%</strong>。装备者对我方全体施放欢愉技时，使敌方全体受到的伤害提高<strong>22/27.5/33/38.5/44%</strong>，持续<strong>3/3/3/3/3</strong>回合，为装备者固定恢复<strong>10/10/10/10/10</strong>点能量，并为我方全体回复等同于装备者防御力<strong>10/12.5/15/17.5/20%</strong>的生命值。
+>
+> *Increases the wearer's DEF by <strong>48/60/72/84/96%</strong>. When the wearer uses Elation Skill on all allies, increases DMG taken by all enemies by <strong>22/27.5/33/38.5/44%</strong>, lasting for <strong>3/3/3/3/3</strong> turn(s). Regenerates a fixed <strong>10/10/10/10/10</strong> Energy for the wearer, and restores HP equal to <strong>10/12.5/15/17.5/20%</strong> of the wearer's DEF for all allies.*
+
+- defence_percent: 0.48/0.6/0.72/0.84/0.96
 
 </details>
 

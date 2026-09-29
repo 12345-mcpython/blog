@@ -1,6 +1,6 @@
 # 遗器套装
 
-> tbgd `RelicSetConfig` / `RelicSetSkillConfig` 全量 **60** 套（外圈遗器 32 套 / 位面饰品 28 套）；数值按 `AbilityParamList` 渲染，部位与强化上限取自 `RelicConfig`。
+> tbgd `RelicSetConfig` / `RelicSetSkillConfig` 全量 **62** 套（外圈遗器 34 套 / 位面饰品 28 套）；数值按 `AbilityParamList` 渲染，部位与强化上限取自 `RelicConfig`。
 
 ## 外圈遗器（4 件套）
 
@@ -388,6 +388,30 @@
 
 - **4 件套**：装备者对防御力降低状态的敌方目标造成的暴击伤害提高<strong>28%</strong>。装备者对敌方目标施加防御力降低状态后，使我方全体获得【助燃】，持续<strong>2</strong>回合，该效果无法叠加，持有【助燃】的我方目标造成的伤害提高<strong>15%</strong>。该效果在装备者施放攻击后可再次触发。
   - *Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by <strong>28%</strong>. After the wearer inflicts the DEF reduction state on an enemy target, all allies gain "Comburent" for <strong>2</strong> turn(s). This effect cannot be stacked. The DMG dealt by ally targets with "Comburent" increases by <strong>15%</strong>. This effect can be triggered again after the wearer uses an attack.*
+
+### 戏梦点星的伶人 / Dreamlit Actor
+
+- 部位: 头部 / 手部 / 躯干 / 脚部（最高 5★，+15）
+- 套装ID `133` · 实装 v4.6
+
+- **2 件套**：速度提高<strong>6%</strong>。
+  - *Increases SPD by <strong>6%</strong>.*
+  - 属性: 速度提高 6%
+
+- **4 件套**：当装备者对我方其他单体目标施放战技或终结技时，使技能目标的欢愉度提高<strong>16%</strong>，持续<strong>3</strong>回合，若装备者持有的好活当赏大于等于<strong>10</strong>点，则额外使我方全体目标的暴击伤害提高<strong>12%</strong>，持续<strong>3</strong>回合。
+  - *When the wearer uses their Skill or Ultimate on one other ally target, increases the ability target's Elation by <strong>16%</strong>, lasting for <strong>3</strong> turn(s). If the wearer has <strong>10</strong> or more points of Certified Banger, additionally increases all ally targets' CRIT DMG by <strong>12%</strong>, lasting for <strong>3</strong> turn(s).*
+
+### 贪噬禁果的异端 / The Edacious Heretic
+
+- 部位: 头部 / 手部 / 躯干 / 脚部（最高 5★，+15）
+- 套装ID `134` · 实装 v4.6
+
+- **2 件套**：暴击伤害提高<strong>16%</strong>。
+  - *Increases CRIT DMG by <strong>16%</strong>.*
+  - 属性: 暴击伤害 16%
+
+- **4 件套**：使装备者普攻造成的伤害提高<strong>36%</strong>。当装备者施放普攻时，使装备者的攻击力提高<strong>20%</strong>，持续<strong>2</strong>回合。
+  - *Increases DMG dealt by the wearer's Basic ATK by <strong>36%</strong>. When the wearer uses Basic ATK, increases the wearer's ATK by <strong>20%</strong>, lasting for <strong>2</strong> turn(s).*
 
 ## 位面饰品（2 件套）
 
