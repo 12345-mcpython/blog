@@ -2,7 +2,7 @@
  "site": "https://laosun123.top",
  "name": "aluminium · 崩坏：星穹铁道 角色战斗数据",
  "lastmod": "2026-09-29",
- "version": "5a033afbc9d2bf1a",
+ "version": "06ca6e04e43ed216",
  "pages": {
   "hsr/1001_三月七.md": {
    "title": "三月七 / March 7th",
@@ -618,7 +618,7 @@
   },
   "hsr/WEAPONS.md": {
    "title": "光锥预览",
-   "description": "tbgd `weapons.json` 全量 170 把光锥；叠影数值按 S1/S2/S3/S4/S5 用 `/` 分割。",
+   "description": "tbgd `weapons.json` 全量 170 把光锥，按实装版本分组（版本号取自 BWIKI 的「实装版本」属性，游戏数据本身没有这个字段）；叠影数值按 S1/S2/S3/S4/S5 用 `/` 分割。",
    "canonical": "https://laosun123.top/hsr/WEAPONS.html",
    "markdown": "https://laosun123.top/hsr/WEAPONS.md"
   },
